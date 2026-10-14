@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap');
+
+:root {
+  font-family: 'DM Sans', 'Segoe UI', sans-serif;
+  color: #20283a;
+  background: #f5f7fb;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  --ink: #20283a;
+  --muted: #778196;
+  --line: #e4e9f1;
+  --blue: #356bd0;
+  --violet: #7664c7;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background:
+    radial-gradient(ellipse at 88% 0%, rgb(221 229 255 / 48%), transparent 29rem),
+    radial-gradient(ellipse at 0% 58%, rgb(230 238 255 / 50%), transparent 25rem),
+    #f5f7fb;
+}
+
+button { font-family: inherit; }
